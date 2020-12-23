@@ -20,6 +20,7 @@ It's also good to compare the performace of those two models T5 and Text2Text th
 
 ```
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 uvicorn app:app --reload --log-level debug
 ```
 

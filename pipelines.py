@@ -140,6 +140,7 @@ class QGPipeline:
             for answer_text in answer:
                 sents_copy = sents[:]
 
+                answer_text = answer_text.replace('<pad>', '')
                 answer_text = answer_text.strip()
 
                 ans_start_idx = sent.index(answer_text)

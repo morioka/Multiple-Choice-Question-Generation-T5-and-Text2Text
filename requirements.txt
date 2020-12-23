@@ -5,9 +5,11 @@ uvicorn
 aiofiles
 Jinja2
 numpy
-tensorflow
+tensorflow-cpu
 spacy
 nltk
 text2text
 boto3
 sense2vec
+scipy
+sentencepiece

@@ -5,7 +5,7 @@ uvicorn
 aiofiles
 Jinja2
 numpy
-tensorflow-cpu
+tensorflow
 spacy
 nltk
 text2text
